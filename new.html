@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> BIO DATA OF YOURSELF</title>
+	  <style>
+		.box {
+			display: grid;
+			place-items: center;
+			border: 2px solid black;
+			background: blue;
+			color: white;
+		}
+	  input.largerCheckbox {
+            width: 20px;
+            height: 20px;
+        }
+		
+		.group {
+			display: flex;
+			gap: 5px;
+			align-items: center;
+		}
+	  </style>
+   </head>
+   <body>
+   <div class="box">
+      <p style="font-size:60px;text-align:center"> BIO DATA OF YOURSELF </p>
+      <div style="display:flex;">
+			<img src=" https://cdn2.iconfinder.com/data/icons/responsive-user-interface-3/18/176-512.png" width="30%;">
+
+		<div>
+		 
+		  
+            <p style="font-size:30px;text-align:left"> First name </p>
+            <input placeholder="First name" style="font-size:20px;text-align:left;" type="textbox"/> 
+         </div>
+         <div style="margin-left: 20px;">
+            <p style="font-size:30px;text-align:left"> Surname </p>
+            <input placeholder="Surname" style="font-size:20px;text-align:left;" type="textbox"/> 
+         </div>
+         <div style="margin-left:20px;">
+            <p style="font-size:30px;text-align:left"> Middle name </p>
+            <input placeholder="Middle name" style="font-size:20px;text-align:left;" type="textbox"/> 
+         </div>
+      </div>
+      <p style= "font-size:30px;"> Mobile Number </p>
+      <div style="display:flex;">
+         <input placeholder="Enter Mobile Number" style= "font-size:20px;width:300px;text-align:left;" type="textbox"/>
+      </div>
+      <div>
+         <p style="font-size:30px;text-align:left"> Address Line 1 </p>
+         <input placeholder="Address Line 1" style= "font-size:20px;width:300px;text-align:left;" type="textbox"/>
+      </div>
+      <div>
+         <p style="font-size:30px;text-align:left"> Address Line 2 </p>
+         <input placeholder="Address Line 2" style= "font-size:20px;width:300px;text-align:left;" type="textbox"/>
+      </div>
+      <p style="font-size:30px;text-align:left"> Birthday</p>
+      <input style= "font-size:20px;width:200px; font-size:22px" type="date">
+	  
+	  <div>
+	  <p style="font-size:30px;text-align:left"> Age </p>
+	  <input style="font-size:20px;width:50px;text-align:left;"type="number" min=1 max=150>
+	  
+	  
+	  
+	  </div>
+	  <p style="font-size:30px;text-align:left"> Gender:
+      <input name="Gender" type="radio">Male
+	  <input name="Gender" type="radio">Female  
+	  </P>
+	     <p style="font-size:30px;text-align:left"> Email </p>
+         <input placeholder="Enter your Email address" style= "font-size:20px;width:400px;text-align:left;" type="textbox"/>
+	  <p style="font-size:30px;text-align:left">
+	  Status </p>
+	  <select style="font-size:20px">
+	  <option> Single </option>
+	   <option> Married </option>
+	    <option> Widowed </option>
+		 <option> Divorced </option>
+		  <option> Seperated </option>
+		  </select>
+	  <div style="font-size:30px;text-align:left"> 
+	  <p> Language: </p>
+	  
+	  <div class="group">
+	  <p> Filipino </P> 
+	  <input  class="largerCheckbox" type="checkbox">
+	  	  </div>
+		 <div class="group">
+		 <p> English </p>
+	   <input class="largerCheckbox"type="checkbox">
+	   </div>
+	    <div class="group">
+		 <p> Hiligaynon <p>
+	      <input class="largerCheckbox"type="checkbox">
+		  </div>
+		  <div class="group">
+		  <p> Chinese </p>
+		     <input class="largerCheckbox"type="checkbox">
+	  
+	  </div>
+	  
+	  </div>
+   </body>
+</html>
